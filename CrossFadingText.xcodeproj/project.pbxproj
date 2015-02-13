@@ -8,27 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		D0B803571A8E63F0004731C4 /* CrossFadingText.h in Headers */ = {isa = PBXBuildFile; fileRef = D0B803561A8E63F0004731C4 /* CrossFadingText.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0B8035D1A8E63F0004731C4 /* CrossFadingText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B803511A8E63F0004731C4 /* CrossFadingText.framework */; };
-		D0B803641A8E63F0004731C4 /* CrossFadingTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B803631A8E63F0004731C4 /* CrossFadingTextTests.m */; };
+		D0B803761A8E64EC004731C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B803751A8E64EC004731C4 /* AppDelegate.swift */; };
+		D0B803781A8E64EC004731C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B803771A8E64EC004731C4 /* ViewController.swift */; };
+		D0B8037B1A8E64EC004731C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B803791A8E64EC004731C4 /* Main.storyboard */; };
+		D0B8037D1A8E64EC004731C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B8037C1A8E64EC004731C4 /* Images.xcassets */; };
+		D0B803801A8E64EC004731C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B8037E1A8E64EC004731C4 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D0B8035E1A8E63F0004731C4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D0B803481A8E63F0004731C4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D0B803501A8E63F0004731C4;
-			remoteInfo = CrossFadingText;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D0B803511A8E63F0004731C4 /* CrossFadingText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CrossFadingText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B803551A8E63F0004731C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0B803561A8E63F0004731C4 /* CrossFadingText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrossFadingText.h; sourceTree = "<group>"; };
-		D0B8035C1A8E63F0004731C4 /* CrossFadingTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossFadingTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0B803621A8E63F0004731C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0B803631A8E63F0004731C4 /* CrossFadingTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrossFadingTextTests.m; sourceTree = "<group>"; };
+		D0B803711A8E64EC004731C4 /* CrossFadingTextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossFadingTextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B803741A8E64EC004731C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B803751A8E64EC004731C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0B803771A8E64EC004731C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0B8037A1A8E64EC004731C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0B8037C1A8E64EC004731C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D0B8037F1A8E64EC004731C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,11 +36,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0B803591A8E63F0004731C4 /* Frameworks */ = {
+		D0B8036E1A8E64EC004731C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0B8035D1A8E63F0004731C4 /* CrossFadingText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,7 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				D0B803531A8E63F0004731C4 /* CrossFadingText */,
-				D0B803601A8E63F0004731C4 /* CrossFadingTextTests */,
+				D0B803721A8E64EC004731C4 /* CrossFadingTextDemo */,
 				D0B803521A8E63F0004731C4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				D0B803511A8E63F0004731C4 /* CrossFadingText.framework */,
-				D0B8035C1A8E63F0004731C4 /* CrossFadingTextTests.xctest */,
+				D0B803711A8E64EC004731C4 /* CrossFadingTextDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,19 +81,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D0B803601A8E63F0004731C4 /* CrossFadingTextTests */ = {
+		D0B803721A8E64EC004731C4 /* CrossFadingTextDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D0B803631A8E63F0004731C4 /* CrossFadingTextTests.m */,
-				D0B803611A8E63F0004731C4 /* Supporting Files */,
+				D0B803751A8E64EC004731C4 /* AppDelegate.swift */,
+				D0B803771A8E64EC004731C4 /* ViewController.swift */,
+				D0B803791A8E64EC004731C4 /* Main.storyboard */,
+				D0B8037C1A8E64EC004731C4 /* Images.xcassets */,
+				D0B8037E1A8E64EC004731C4 /* LaunchScreen.xib */,
+				D0B803731A8E64EC004731C4 /* Supporting Files */,
 			);
-			path = CrossFadingTextTests;
+			path = CrossFadingTextDemo;
 			sourceTree = "<group>";
 		};
-		D0B803611A8E63F0004731C4 /* Supporting Files */ = {
+		D0B803731A8E64EC004731C4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D0B803621A8E63F0004731C4 /* Info.plist */,
+				D0B803741A8E64EC004731C4 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -134,23 +134,22 @@
 			productReference = D0B803511A8E63F0004731C4 /* CrossFadingText.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D0B8035B1A8E63F0004731C4 /* CrossFadingTextTests */ = {
+		D0B803701A8E64EC004731C4 /* CrossFadingTextDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D0B8036A1A8E63F0004731C4 /* Build configuration list for PBXNativeTarget "CrossFadingTextTests" */;
+			buildConfigurationList = D0B8038D1A8E64EC004731C4 /* Build configuration list for PBXNativeTarget "CrossFadingTextDemo" */;
 			buildPhases = (
-				D0B803581A8E63F0004731C4 /* Sources */,
-				D0B803591A8E63F0004731C4 /* Frameworks */,
-				D0B8035A1A8E63F0004731C4 /* Resources */,
+				D0B8036D1A8E64EC004731C4 /* Sources */,
+				D0B8036E1A8E64EC004731C4 /* Frameworks */,
+				D0B8036F1A8E64EC004731C4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D0B8035F1A8E63F0004731C4 /* PBXTargetDependency */,
 			);
-			name = CrossFadingTextTests;
-			productName = CrossFadingTextTests;
-			productReference = D0B8035C1A8E63F0004731C4 /* CrossFadingTextTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = CrossFadingTextDemo;
+			productName = CrossFadingTextDemo;
+			productReference = D0B803711A8E64EC004731C4 /* CrossFadingTextDemo.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -164,7 +163,7 @@
 					D0B803501A8E63F0004731C4 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
-					D0B8035B1A8E63F0004731C4 = {
+					D0B803701A8E64EC004731C4 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
@@ -175,6 +174,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D0B803471A8E63F0004731C4;
 			productRefGroup = D0B803521A8E63F0004731C4 /* Products */;
@@ -182,7 +182,7 @@
 			projectRoot = "";
 			targets = (
 				D0B803501A8E63F0004731C4 /* CrossFadingText */,
-				D0B8035B1A8E63F0004731C4 /* CrossFadingTextTests */,
+				D0B803701A8E64EC004731C4 /* CrossFadingTextDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -195,10 +195,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0B8035A1A8E63F0004731C4 /* Resources */ = {
+		D0B8036F1A8E64EC004731C4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0B8037B1A8E64EC004731C4 /* Main.storyboard in Resources */,
+				D0B803801A8E64EC004731C4 /* LaunchScreen.xib in Resources */,
+				D0B8037D1A8E64EC004731C4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,23 +215,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0B803581A8E63F0004731C4 /* Sources */ = {
+		D0B8036D1A8E64EC004731C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0B803641A8E63F0004731C4 /* CrossFadingTextTests.m in Sources */,
+				D0B803781A8E64EC004731C4 /* ViewController.swift in Sources */,
+				D0B803761A8E64EC004731C4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		D0B8035F1A8E63F0004731C4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D0B803501A8E63F0004731C4 /* CrossFadingText */;
-			targetProxy = D0B8035E1A8E63F0004731C4 /* PBXContainerItemProxy */;
+/* Begin PBXVariantGroup section */
+		D0B803791A8E64EC004731C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B8037A1A8E64EC004731C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
 		};
-/* End PBXTargetDependency section */
+		D0B8037E1A8E64EC004731C4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B8037F1A8E64EC004731C4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D0B803651A8E63F0004731C4 /* Debug */ = {
@@ -345,32 +360,27 @@
 			};
 			name = Release;
 		};
-		D0B8036B1A8E63F0004731C4 /* Debug */ = {
+		D0B8038E1A8E64EC004731C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = CrossFadingTextTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				INFOPLIST_FILE = CrossFadingTextDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		D0B8036C1A8E63F0004731C4 /* Release */ = {
+		D0B8038F1A8E64EC004731C4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CrossFadingTextTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrossFadingTextDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -395,11 +405,11 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		D0B8036A1A8E63F0004731C4 /* Build configuration list for PBXNativeTarget "CrossFadingTextTests" */ = {
+		D0B8038D1A8E64EC004731C4 /* Build configuration list for PBXNativeTarget "CrossFadingTextDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D0B8036B1A8E63F0004731C4 /* Debug */,
-				D0B8036C1A8E63F0004731C4 /* Release */,
+				D0B8038E1A8E64EC004731C4 /* Debug */,
+				D0B8038F1A8E64EC004731C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
