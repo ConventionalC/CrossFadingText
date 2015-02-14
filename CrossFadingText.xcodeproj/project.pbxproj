@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D09E54831A8FD38C00840614 /* CrossFadingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = D09E54811A8FD38B00840614 /* CrossFadingLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D09E54841A8FD38C00840614 /* CrossFadingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D09E54821A8FD38C00840614 /* CrossFadingLabel.m */; };
+		D09E54871A8FD7AF00840614 /* CrossFadeTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = D09E54851A8FD7AF00840614 /* CrossFadeTransition.h */; };
+		D09E54881A8FD7AF00840614 /* CrossFadeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D09E54861A8FD7AF00840614 /* CrossFadeTransition.m */; };
+		D09E548B1A8FE39C00840614 /* CrossFadingText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B803511A8E63F0004731C4 /* CrossFadingText.framework */; };
 		D0B803571A8E63F0004731C4 /* CrossFadingText.h in Headers */ = {isa = PBXBuildFile; fileRef = D0B803561A8E63F0004731C4 /* CrossFadingText.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0B803761A8E64EC004731C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B803751A8E64EC004731C4 /* AppDelegate.swift */; };
 		D0B803781A8E64EC004731C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B803771A8E64EC004731C4 /* ViewController.swift */; };
@@ -15,7 +20,21 @@
 		D0B803801A8E64EC004731C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B8037E1A8E64EC004731C4 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D09E54891A8FE39600840614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0B803481A8E63F0004731C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0B803501A8E63F0004731C4;
+			remoteInfo = CrossFadingText;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		D09E54811A8FD38B00840614 /* CrossFadingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrossFadingLabel.h; sourceTree = "<group>"; };
+		D09E54821A8FD38C00840614 /* CrossFadingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrossFadingLabel.m; sourceTree = "<group>"; };
+		D09E54851A8FD7AF00840614 /* CrossFadeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrossFadeTransition.h; sourceTree = "<group>"; };
+		D09E54861A8FD7AF00840614 /* CrossFadeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrossFadeTransition.m; sourceTree = "<group>"; };
 		D0B803511A8E63F0004731C4 /* CrossFadingText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CrossFadingText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B803551A8E63F0004731C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0B803561A8E63F0004731C4 /* CrossFadingText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrossFadingText.h; sourceTree = "<group>"; };
@@ -40,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D09E548B1A8FE39C00840614 /* CrossFadingText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +89,10 @@
 			children = (
 				D0B803561A8E63F0004731C4 /* CrossFadingText.h */,
 				D0B803541A8E63F0004731C4 /* Supporting Files */,
+				D09E54811A8FD38B00840614 /* CrossFadingLabel.h */,
+				D09E54821A8FD38C00840614 /* CrossFadingLabel.m */,
+				D09E54851A8FD7AF00840614 /* CrossFadeTransition.h */,
+				D09E54861A8FD7AF00840614 /* CrossFadeTransition.m */,
 			);
 			path = CrossFadingText;
 			sourceTree = "<group>";
@@ -109,6 +133,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D09E54871A8FD7AF00840614 /* CrossFadeTransition.h in Headers */,
+				D09E54831A8FD38C00840614 /* CrossFadingLabel.h in Headers */,
 				D0B803571A8E63F0004731C4 /* CrossFadingText.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +171,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				D09E548A1A8FE39600840614 /* PBXTargetDependency */,
 			);
 			name = CrossFadingTextDemo;
 			productName = CrossFadingTextDemo;
@@ -212,6 +239,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D09E54841A8FD38C00840614 /* CrossFadingLabel.m in Sources */,
+				D09E54881A8FD7AF00840614 /* CrossFadeTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +254,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D09E548A1A8FE39600840614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0B803501A8E63F0004731C4 /* CrossFadingText */;
+			targetProxy = D09E54891A8FE39600840614 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D0B803791A8E64EC004731C4 /* Main.storyboard */ = {
@@ -404,6 +441,7 @@
 				D0B803691A8E63F0004731C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0B8038D1A8E64EC004731C4 /* Build configuration list for PBXNativeTarget "CrossFadingTextDemo" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +450,7 @@
 				D0B8038F1A8E64EC004731C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

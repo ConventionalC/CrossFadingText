@@ -1,25 +1,26 @@
-//
-//  ViewController.swift
-//  CrossFadingTextDemo
-//
-//  Created by Peter DeWeese on 2/13/15.
-//  Copyright (c) 2015 DeWeese Consulting, LLC. All rights reserved.
-//
-
 import UIKit
+import CrossFadingText
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+class ViewController: UIViewController
+{
+    @IBOutlet var label1:CrossFadingLabel!
+    
+    var count:Int = 0 {
+        didSet {
+            label1.text = "\(count)"
+        }
+    }
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        timer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: "timerDidFire:", userInfo: nil, repeats: true)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    var timer:NSTimer!
+    
+    func timerDidFire(timer:NSTimer!)
+    {
+        count++
     }
-
-
 }
 
