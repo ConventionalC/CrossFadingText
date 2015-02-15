@@ -18,6 +18,8 @@
 		D0B8037B1A8E64EC004731C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B803791A8E64EC004731C4 /* Main.storyboard */; };
 		D0B8037D1A8E64EC004731C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B8037C1A8E64EC004731C4 /* Images.xcassets */; };
 		D0B803801A8E64EC004731C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B8037E1A8E64EC004731C4 /* LaunchScreen.xib */; };
+		D0F911BA1A9040B2002E6C5C /* CrossFadingButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F911B81A9040B2002E6C5C /* CrossFadingButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0F911BB1A9040B2002E6C5C /* CrossFadingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F911B91A9040B2002E6C5C /* CrossFadingButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		D0B8037A1A8E64EC004731C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0B8037C1A8E64EC004731C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D0B8037F1A8E64EC004731C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D0F911B81A9040B2002E6C5C /* CrossFadingButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrossFadingButton.h; sourceTree = "<group>"; };
+		D0F911B91A9040B2002E6C5C /* CrossFadingButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrossFadingButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 				D09E54821A8FD38C00840614 /* CrossFadingLabel.m */,
 				D09E54851A8FD7AF00840614 /* CrossFadeTransition.h */,
 				D09E54861A8FD7AF00840614 /* CrossFadeTransition.m */,
+				D0F911B81A9040B2002E6C5C /* CrossFadingButton.h */,
+				D0F911B91A9040B2002E6C5C /* CrossFadingButton.m */,
 			);
 			path = CrossFadingText;
 			sourceTree = "<group>";
@@ -134,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D09E54871A8FD7AF00840614 /* CrossFadeTransition.h in Headers */,
+				D0F911BA1A9040B2002E6C5C /* CrossFadingButton.h in Headers */,
 				D09E54831A8FD38C00840614 /* CrossFadingLabel.h in Headers */,
 				D0B803571A8E63F0004731C4 /* CrossFadingText.h in Headers */,
 			);
@@ -239,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F911BB1A9040B2002E6C5C /* CrossFadingButton.m in Sources */,
 				D09E54841A8FD38C00840614 /* CrossFadingLabel.m in Sources */,
 				D09E54881A8FD7AF00840614 /* CrossFadeTransition.m in Sources */,
 			);

@@ -3,11 +3,17 @@ import CrossFadingText
 
 class ViewController: UIViewController
 {
-    @IBOutlet var label1:CrossFadingLabel!
+    @IBOutlet var newLabel:CrossFadingLabel!
+    @IBOutlet var oldLabel:CrossFadingLabel!
+    @IBOutlet var newButton:UIButton!
+    @IBOutlet var oldButton:UIButton!
     
     var count:Int = 0 {
         didSet {
-            label1.text = "\(count)"
+            newLabel.text = "CrossFadingLabel \(count)"
+            oldLabel.text = "UILabel \(count)"
+            newButton.setTitle("CrossFadeButton \(count)", forState: UIControlState.Normal)
+            oldButton.setTitle("UIButton \(count)", forState: UIControlState.Normal)
         }
     }
     
