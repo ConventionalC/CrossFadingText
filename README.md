@@ -25,9 +25,9 @@ pod CrossFadingText, '~> 0.1'
 
 ##Usage
 
-###1. UILabel
+###1. UILabel, UITextField, UITextView
 
-Extend CrossFadingLabel or set it under 'Custom Class' in a storyboard. There is a duration property, which defaults to 0.25, and the property can be set directly from the storyboard. Any normal UILabel can be animated by calling the category method `setText:withDuration:`.
+Extend CrossFadingLabel/TextField/TextView or set it under 'Custom Class' in a storyboard. There is a duration property, which defaults to 0.25, and the property can be set directly from the storyboard. Any normal UILabel can be animated by calling the category method `setText:withDuration:`.
 
 ###1. UIButton
 

@@ -7,6 +7,10 @@ class ViewController: UIViewController
     @IBOutlet var oldLabel:CrossFadingLabel!
     @IBOutlet var newButton:UIButton!
     @IBOutlet var oldButton:UIButton!
+    @IBOutlet var newTextField:UITextField!
+    @IBOutlet var oldTextField:UITextField!
+    @IBOutlet var newTextView:UITextView!
+    @IBOutlet var oldTextView:UITextView!
     
     var count:Int = 0 {
         didSet {
@@ -14,6 +18,10 @@ class ViewController: UIViewController
             oldLabel.text = "UILabel \(count)"
             newButton.setTitle("CrossFadeButton \(count)", forState: UIControlState.Normal)
             oldButton.setTitle("UIButton \(count)", forState: UIControlState.Normal)
+            newTextField.text = "CrossFadingTextField \(count)"
+            oldTextField.text = "UITextField \(count)"
+            newTextView.text = "CrossFadingTextView \(count)"
+            oldTextView.text = "UITextView \(count)"
         }
     }
     
