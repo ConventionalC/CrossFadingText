@@ -5,3 +5,5 @@ FOUNDATION_EXPORT const unsigned char CrossFadingTextVersionString[];
 
 #import <CrossFadingText/CrossFadingLabel.h>
 #import <CrossFadingText/CrossFadingButton.h>
+#import <CrossFadingText/CrossFadingTextField.h>
+#import <CrossFadingText/CrossFadingTextView.h>

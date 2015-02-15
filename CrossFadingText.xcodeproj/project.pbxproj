@@ -20,6 +20,10 @@
 		D0B803801A8E64EC004731C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B8037E1A8E64EC004731C4 /* LaunchScreen.xib */; };
 		D0F911BA1A9040B2002E6C5C /* CrossFadingButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F911B81A9040B2002E6C5C /* CrossFadingButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0F911BB1A9040B2002E6C5C /* CrossFadingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F911B91A9040B2002E6C5C /* CrossFadingButton.m */; };
+		D0F911BE1A9046D9002E6C5C /* CrossFadingTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F911BC1A9046D9002E6C5C /* CrossFadingTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0F911BF1A9046D9002E6C5C /* CrossFadingTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F911BD1A9046D9002E6C5C /* CrossFadingTextField.m */; };
+		D0F911C21A9048C2002E6C5C /* CrossFadingTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F911C01A9048C2002E6C5C /* CrossFadingTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0F911C31A9048C2002E6C5C /* CrossFadingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F911C11A9048C2002E6C5C /* CrossFadingTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		D0B8037F1A8E64EC004731C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D0F911B81A9040B2002E6C5C /* CrossFadingButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrossFadingButton.h; sourceTree = "<group>"; };
 		D0F911B91A9040B2002E6C5C /* CrossFadingButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrossFadingButton.m; sourceTree = "<group>"; };
+		D0F911BC1A9046D9002E6C5C /* CrossFadingTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrossFadingTextField.h; sourceTree = "<group>"; };
+		D0F911BD1A9046D9002E6C5C /* CrossFadingTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrossFadingTextField.m; sourceTree = "<group>"; };
+		D0F911C01A9048C2002E6C5C /* CrossFadingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrossFadingTextView.h; sourceTree = "<group>"; };
+		D0F911C11A9048C2002E6C5C /* CrossFadingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrossFadingTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 				D09E54861A8FD7AF00840614 /* CrossFadeTransition.m */,
 				D0F911B81A9040B2002E6C5C /* CrossFadingButton.h */,
 				D0F911B91A9040B2002E6C5C /* CrossFadingButton.m */,
+				D0F911BC1A9046D9002E6C5C /* CrossFadingTextField.h */,
+				D0F911BD1A9046D9002E6C5C /* CrossFadingTextField.m */,
+				D0F911C01A9048C2002E6C5C /* CrossFadingTextView.h */,
+				D0F911C11A9048C2002E6C5C /* CrossFadingTextView.m */,
 			);
 			path = CrossFadingText;
 			sourceTree = "<group>";
@@ -142,6 +154,8 @@
 				D09E54871A8FD7AF00840614 /* CrossFadeTransition.h in Headers */,
 				D0F911BA1A9040B2002E6C5C /* CrossFadingButton.h in Headers */,
 				D09E54831A8FD38C00840614 /* CrossFadingLabel.h in Headers */,
+				D0F911BE1A9046D9002E6C5C /* CrossFadingTextField.h in Headers */,
+				D0F911C21A9048C2002E6C5C /* CrossFadingTextView.h in Headers */,
 				D0B803571A8E63F0004731C4 /* CrossFadingText.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,8 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0F911BB1A9040B2002E6C5C /* CrossFadingButton.m in Sources */,
+				D0F911BF1A9046D9002E6C5C /* CrossFadingTextField.m in Sources */,
 				D09E54841A8FD38C00840614 /* CrossFadingLabel.m in Sources */,
 				D09E54881A8FD7AF00840614 /* CrossFadeTransition.m in Sources */,
+				D0F911C31A9048C2002E6C5C /* CrossFadingTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
