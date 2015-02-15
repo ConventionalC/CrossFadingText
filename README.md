@@ -13,7 +13,7 @@ This library adds a transition animation just before changing text.
 Add the following to your Podfile:
 
 ```
-pod CrossFadingText, '~> 0.1'
+pod CrossFadingText, '~> 0.2'
 ```
 
 ###Manual Installation
