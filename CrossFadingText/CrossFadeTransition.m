@@ -11,7 +11,7 @@
 
 -(id)init
 {
-    if(self == super.init)
+    if((self = super.init))
     {
         super.type = kCATransitionFade;
         self.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
